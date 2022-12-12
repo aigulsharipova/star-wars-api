@@ -25,3 +25,21 @@ p {
 .outline {
   text-align: center;
 }
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between; 
+  
+ }
+.collections {
+  box-shadow: 3px 3px 7px 2px yellow;
+  border-radius: 7px;
+  margin-top: 5%;
+  width: calc(100% / 3 - 10%);
+  height: calc(100% / 3 - 10%);
+  flex-direction: column;
+}
+.collections:hover {
+  box-shadow: 3px 3px 17px 12px yellow;
+}
