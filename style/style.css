@@ -1,5 +1,7 @@
 body {
   background-image: url('https://images.unsplash.com/photo-1475274047050-1d0c0975c63e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1472&q=80');
+  margin-left: 5%;
+  margin-right: 5%;
 }
 
 .logo {
@@ -36,9 +38,10 @@ p {
   box-shadow: 3px 3px 7px 2px yellow;
   border-radius: 7px;
   margin-top: 5%;
-  width: calc(100% / 3 - 10%);
-  height: calc(100% / 3 - 10%);
+  width: calc(100% / 3 );
+  height: calc(100% / 3 );
   flex-direction: column;
+  margin-top: 5%;
 }
 .collections:hover {
   box-shadow: 3px 3px 17px 12px yellow;
