@@ -11,3 +11,10 @@ body {
   max-width: 100%;
   height: auto;
 }
+
+h2 {
+  font-size: 250%;
+  padding: 20px;
+  color: yellow;
+  text-align: center;
+}
