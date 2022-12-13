@@ -3,7 +3,6 @@ body {
   margin-left: 5%;
   margin-right: 5%;
 }
-
 .logo {
   margin: auto;
   width: 30%;
@@ -13,36 +12,28 @@ body {
   max-width: 100%;
   height: auto;
 }
-
 h2 {
   font-size: 250%;
   padding: 20px;
   color: yellow;
   text-align: center;
 }
-
 p {
   color: white;
 }
 .outline {
   text-align: center;
 }
-
 .cards {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between; 
-  
  }
 .collections {
   box-shadow: 3px 3px 7px 2px yellow;
-  border-radius: 7px;
+  border-radius: 15px;
   margin-top: 5%;
-  width: calc(100% / 3 );
-  height: calc(100% / 3 );
+  width: calc(100% / 3 - 10px);
+  height: calc(100% / 3 - 10px);
   flex-direction: column;
-  margin-top: 5%;
-}
-.collections:hover {
-  box-shadow: 3px 3px 17px 12px yellow;
 }
