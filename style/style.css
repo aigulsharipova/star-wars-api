@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
 body {
   background-image: url('https://images.unsplash.com/photo-1475274047050-1d0c0975c63e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1472&q=80');
   margin-left: 5%;
@@ -23,6 +27,7 @@ p {
 }
 .outline {
   text-align: center;
+  margin-top: 7%;
 }
 .cards {
   display: flex;
